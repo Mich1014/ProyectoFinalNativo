@@ -21,4 +21,11 @@ Route::get('/reg', function () {
     return view('registro');
 });
 
+Route::get('/pag', function () {
+    return view('pagina');
+});
+
+Route::get('/pag2', function () {
+    return view('pagina2');
+});
 
